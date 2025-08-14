@@ -1,0 +1,27 @@
+Guia Rápido: Como Executar no Google Colab
+
+Abra o Notebook no Colab
+
+Faça upload do .ipynb ou cole o código em um novo notebook.
+
+Execute as Células em Ordem
+
+Apenas clique em "Play" (▶) em cada célula (elas já estão configuradas para instalar dependências, carregar o PDF, etc.).
+
+Quando Chegar na Célula do Upload do PDF:
+
+Clique em "Escolher arquivo" e selecione o regulamento_abertura_conta.pdf. (disponibilizado no git ou baixe no google)
+
+Na Célula da API Key do Groq:
+
+Cole sua chave quando solicitado (sem espaços ou erros). Criar chave em (https://console.groq.com/keys)
+
+Para TESTAR o Assistente:
+
+Na célula que tem prompt = "Como criar uma conta", mude a pergunta para o que quiser (ex: "Quais as tarifas da conta?").
+
+Execute a célula novamente para ver a resposta.
+
+Se Quiser uma Interface Gráfica (Streamlit) ao executar a ultima celula irá gerar um numero e um link...Copie o número e clique no link. Preencha o espaço com o número e utilize o chat de forma local.
+
+Qualquer coisa me chama no Linkedin.
